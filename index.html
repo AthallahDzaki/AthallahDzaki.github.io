@@ -2,6 +2,9 @@
   <title>Athallah Dzaki</title>
   <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>$(document).ready(function() {
+  $(".nama").click(function(){
+     window.location.href = 'https://github.com/AthallahDzaki';
+   });
   var a = $(".loading");
   a.delay(a.attr("delay-hide")).slideUp();
 });
@@ -82,6 +85,6 @@
 </style>
 </head>
 <body class = "ayam">
-  <div id = "main"><h1>Athallah Dzaki</h1></div>
+  <div id = "main"><h1 class = "nama">Athallah Dzaki</h1></div>
   <div class="loading" delay-hide="5000"></div>
 </body>
