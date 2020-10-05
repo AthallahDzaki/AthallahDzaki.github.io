@@ -1,2 +1,2 @@
-# [MY SITE](athallahdzaki.github.io)
-# [MY Project Site](sampindo.com)
+# [MY SITE](https://athallahdzaki.github.io)
+# [MY Project Site](https://sampindo.com)
