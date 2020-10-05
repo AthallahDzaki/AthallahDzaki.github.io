@@ -4,7 +4,8 @@
   <script>$(document).ready(function() {
   var a = $(".loading");
   a.delay(a.attr("delay-hide")).slideUp();
-});</script>
+});
+  jQuery('#main').css('opacity', '0.6');</script>
 <style>
  @import url('https://fonts.googleapis.com/css?family=Lobster');
 .loading {
@@ -32,6 +33,17 @@
   border-radius: 50%;
   animation: loading 2s infinite;
 }
+.ayam h1 {
+	color: #fff;
+	font-family: 'Museo Sans', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 15vmin;
+	text-align: center;
+	font-size: 15vmin; /* If you want to be extra-fancy */
+	line-height: 110%;
+	text-shadow: 0.05em 0.05em 0.1em #000;
+	text-shadow: 0 0.025em 0.05em rgba(0,0,0,0.75), 0 0.05em 0.1em rgba(0,0,0,0.5);
+}
 .loading:before {
   font-family: 'Lobster', cursive;
   font-size: 20px;
@@ -46,6 +58,18 @@
   margin: auto;
 }
 
+.ayam {
+	width:100%;
+	min-height:75vh;
+	background: no-repeat fixed url(https://i.imgur.com/Ft4pxAa.jpg) center / cover; /* from Unsplash */
+	margin-top:50px;
+	
+	/* This is what centers it */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @keyframes loading {
   0% {
     transform: rotate(0);
@@ -58,5 +82,9 @@
 </style>
 </head>
 <body>
+  <div class= "ayam" id = "main"><h1>Athallah Dzaki</h1></div>
   <div class="loading" delay-hide="5000"></div>
 </body>
+<footer>
+  <h6>All is Open Source</h6>
+</footer>
