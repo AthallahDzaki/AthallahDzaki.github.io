@@ -1,4 +1,6 @@
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="https://github.com/AthallahDzaki/AthallahDzaki.github.io/raw/main/asset/favicon.png">
   <title>Athallah Dzaki</title>
   <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -39,7 +41,54 @@
 	right: 30px;
 	bottom:30px;
 }
-.act-btn:hover{background: blue}
+.act-btn2{
+	background:green;
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-decoration: none;
+	transition: ease all 0.3s;
+	position: fixed;
+	right: 30px;
+	bottom:30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 .loading:after {
   content: "";
   width: 50px;
@@ -113,9 +162,8 @@
 </style>
 </head>
 <body class = "ayam">
-  <a href="#" class="act-btn">Test</a>
+  <a href="#" class="act-btn"><span href="#" class="fa fa-facebook"></span></a>
   <div id = "main" class="unselectable"><h1 class = "nama">Athallah Dzaki</h1></div>
-  <div class="loading" delay-hide="5000"></div>
-  
+  <div class="loading" delay-hide="5000"></div> 
 </body>
 
