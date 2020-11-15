@@ -21,6 +21,25 @@
   background: limegreen;
   z-index: 99;
 }
+.act-btn{
+	background:green;
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-decoration: none;
+	transition: ease all 0.3s;
+	position: fixed;
+	right: 30px;
+	bottom:30px;
+}
+.act-btn:hover{background: blue}
 .loading:after {
   content: "";
   width: 50px;
@@ -94,7 +113,9 @@
 </style>
 </head>
 <body class = "ayam">
+  <a href="#" class="act-btn">Test</a>
   <div id = "main" class="unselectable"><h1 class = "nama">Athallah Dzaki</h1></div>
   <div class="loading" delay-hide="5000"></div>
+  
 </body>
 
